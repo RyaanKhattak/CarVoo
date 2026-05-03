@@ -1,0 +1,39 @@
+Checking products...
+Total products in DB: 1
+Products found:
+- Brakes  (63190048-a47a-455e-833b-55dead7021d0): Status = approved
+Approved products count: 1
+INSPECTING PRODUCT: Brakes  (63190048-a47a-455e-833b-55dead7021d0)
+Full Details: brand_id=4, category_id=3, seller_id=18790bed-15c3-45d7-bde2-b8805a300f22
+Testing App Query...
+Join Query Success. Data: [
+  {
+    "id": "63190048-a47a-455e-833b-55dead7021d0",
+    "name": "Brakes ",
+    "description": "asdfghjkl",
+    "price": 123,
+    "stock_quantity": 1116,
+    "seller_id": "18790bed-15c3-45d7-bde2-b8805a300f22",
+    "brand_id": 4,
+    "model_id": null,
+    "category_id": 3,
+    "images": [
+      "https://images.unsplash.com/photo-1486262715619-67b85e0b08d3?auto=format&fit=crop&q=80&w=800"
+    ],
+    "status": "approved",
+    "created_at": "2026-02-14T10:28:43.962861+00:00",
+    "updated_at": "2026-02-15T09:18:36.793338+00:00",
+    "brand": {
+      "name": "BMW"
+    },
+    "model": null,
+    "category": {
+      "name": "Brake System",
+      "slug": "brake-system"
+    },
+    "seller": {
+      "id": "18790bed-15c3-45d7-bde2-b8805a300f22",
+      "full_name": "abcd"
+    }
+  }
+]
